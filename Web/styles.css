@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.mainbox {
+  width: 1000px;
+  height: 1000px; /* will be removed later */
+  background-color: white;
+  border: 3px solid gray;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+table {
+  margin: auto;
+  margin-top: 26px;
+  width: 400px;
+  /* border-spacing: 40px; */
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.centerheader {
+  border: 2px solid black;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.info {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.borderleft {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: left;
+}
+
+.borderright {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: right;
+}
+
+.blackbox {
+  background-color: black;
+  height: 30px;
+}
