@@ -405,6 +405,7 @@ while True:
     print()
     print(f"----------------------------------------")
     print(f"Invoice date:                 {InvoiceDateDsp:>10s}")
+    print(f"Policy number:                      {POLICY_NUMBER:>2d}")
     print()
     print(f"First name:                 {FirstName:>12s}")
     print(f"Last name:                  {LastName:>12s}")
